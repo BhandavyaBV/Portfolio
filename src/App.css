@@ -1,0 +1,36 @@
+body{
+  background-color: rgb(14, 19, 48) !important;
+  color: white !important;
+}
+
+.white{
+  color:white !important;
+}
+
+.font-150{
+  font-size: 150% !important;
+}
+
+.font-200{
+  font-size: 200% !important;
+}
+
+.font-120{
+  font-size: 120% !important;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+.pointer:hover{
+  border-bottom: 1px solid white;
+}
+
+.Typewriter{
+  font-size: 120%;
+}
+
+a{
+  text-decoration: none !important;
+}
