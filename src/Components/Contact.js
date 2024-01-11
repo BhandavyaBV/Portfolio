@@ -52,7 +52,7 @@ function Contact(){
                     <textarea ref={messageRef} className="form-control bg-transparent border-white white" id="exampleFormControlTextarea1" placeholder='Your message' rows="4" required></textarea>
                 </div>
                 <button type="button" class="btn btn-outline-light" onClick={sendMessage}>Send message</button>
-                <button type="button" class="btn btn-outline-success ms-3"><a href="https://www.linkedin.com/in/bhandavyabv/"></a>Go to LinkedIn</button>
+                <button type="button" class="btn btn-outline-success ms-3"><a href="https://www.linkedin.com/in/bhandavyabv/" target='_blank'></a>Go to LinkedIn</button>
             </div>
            
         </div>
