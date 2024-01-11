@@ -8,7 +8,7 @@ class Navbar extends Component{
         // #2e2d40  504e6e
         <nav className="navbar navbar-expand-lg " style={{backgroundColor:'#1f1940'}}>
         <div className="container-fluid ">
-          <Link to="/home" className="navbar-brand ps-5"  style={{fontSize:"200%",color:"white"}}>Bhandavya B V</Link>
+          <Link to="/" className="navbar-brand ps-5"  style={{fontSize:"200%",color:"white"}}>Bhandavya B V</Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -21,7 +21,7 @@ class Navbar extends Component{
                 <Link to="/projects" className="nav-link font-120 white pointer px-4" >Projects</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link font-120 white pointer px-4" >Contact</Link>
+                <Link to="/contact" className="nav-link font-120 white pointer px-4" >Contact</Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link font-120 white pointer">Resume</Link>

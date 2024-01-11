@@ -34,3 +34,7 @@ body{
 a{
   text-decoration: none !important;
 }
+
+input::placeholder, textarea::placeholder {
+  color: rgb(150, 149, 149) !important; /* Replace with the desired color code */
+}
