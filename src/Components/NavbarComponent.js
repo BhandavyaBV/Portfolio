@@ -24,7 +24,7 @@ class Navbar extends Component{
                 <Link to="/contact" className="nav-link font-120 white pointer px-4" >Contact</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link font-120 white pointer"><a href='https://drive.google.com/file/d/1wvK4_8SiMAxW3jVcf0tJdg1Tsoa1kTbr/view?usp=sharing' target='_blank'>Resume</a></Link>
+                <a className="nav-link font-120 white pointer" href='https://drive.google.com/file/d/1wvK4_8SiMAxW3jVcf0tJdg1Tsoa1kTbr/view?usp=sharing' target='_blank'>Resume</a>
               </li>
             </ul>
           </div>
