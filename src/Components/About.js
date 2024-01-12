@@ -1,11 +1,13 @@
-import MY_IMAGE from '../assets/images/1665199765902.jpg'
+// import MY_IMAGE from '../assets/images/1665199765902.jpg'
+// import MY_IMAGE from '../assets/images/WhatsApp Image 2024-01-11 at 10.10.33 PM.jpeg'
+import MY_IMAGE from "../assets/images/WhatsApp Image 2024-01-11 at 10.10.33 PM.jpeg"
 
 function About(){
     return(
         <div style={{width:"80%", height:"max-content", margin:"0 auto", marginTop:"50px"}}>
             <div className="row">
                 <div className="col-5 mt-2">
-                    <img src={MY_IMAGE}  height="450" alt=''/>
+                    <img src={MY_IMAGE}  height="450"  alt=''/>
                 </div>
                 <div className="col-7 ps-0">
                     <p className='font-120 text-white mb-0 fw-bold'>Master's in Applied Computer Science, Dalhousie University(May 2023 - Sept 2024)</p>
