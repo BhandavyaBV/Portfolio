@@ -2,10 +2,10 @@ import { Link } from "react-router-dom"
 import Typewriter from 'typewriter-effect';
 function Home(){
     const texts = [
-        "I'm a full stack developer",
-        "AWS Certified",
-        "Familiar with Javascript, Python and Java",
-        "I'm into  web development using ReactJs and Angular",
+        "I'm a .Net full stack developer",
+        "Familiar with ASP .net Core , MVC, Web API and Javascript and Python ",
+        "AWS Certified Colud Practitioner",
+        "I'm into  web development using ReactJs, Vue.js and Angular",
       ];
     
     return(
