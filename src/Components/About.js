@@ -4,28 +4,44 @@ import MY_IMAGE from "../assets/images/WhatsApp Image 2024-01-11 at 10.10.33 PM.
 
 function About(){
     return(
-        <div style={{width:"80%", height:"max-content", margin:"0 auto", marginTop:"50px"}}>
+        <div style={{width:"80%", height:"max-content", margin:"0 auto", marginTop:"20px"}}>
             <div className="row">
+                {/* <div>
+                    <p style={{textAlign:"justify"}}>
+                        A dedicated software developer with 5+ years of experience in the IT industry, skilled in complete Software Development Life Cycle (SDLC). Proficient in NodeJS, Python, Java and ReactJS with expertise in leading development teams and writing high-performance Rest APIs. Experienced in both relational and non-relational database, Dockerized applications, and Agile Scrum practices.
+                        </p>
+                    </div> */}
                 <div className="col-5 mt-2">
                     <img src={MY_IMAGE}  height="450"  alt=''/>
                 </div>
-                <div className="col-7 ps-0">
-                    <p className='font-120 text-white mb-0 fw-bold'>Master's in Applied Computer Science, Dalhousie University(May 2023 - Sept 2024)</p>
-                    <p style={{textAlign:"justify"}}>As a graduate student, I am actively engaged in acquiring expertise in cutting-edge technologies, while also focusing on mastering development best practices. This dual emphasis equips me with the skills needed to contribute innovatively in the rapidly evolving field of technology. </p>
-                    
-                    <p className='font-120 text-white mb-0 fw-bold'>Experience</p>
-                    <p className='mb-0'>Software Developer Intern, <span style={{fontSize:"80%"}}><i>May 2024 - Aug 2024</i></span></p>
-                    <p className=''>Dash Hudson, Halifax, Canada</p>
-                    <p className='mb-0'>Associate Software Developer, <span style={{fontSize:"80%"}}><i>Aug 2019 - Mar 2023</i></span></p>
-                    <p className=''>Maersk GSC, Bangalore</p>
+                <div className="col-7 ps-0 mt-3">
                     <p style={{textAlign:"justify"}}>
-                    With a 4-year tenure in full-stack development, I spearheaded projects from conception to deployment, ensuring seamless integration of front-end and back-end technologies. Demonstrated expertise in creating scalable solutions and fostering cross-functional collaboration for successful project outcomes.
+                        A dedicated software developer with 5+ years of experience in the IT industry, skilled in complete Software Development Life Cycle (SDLC). Proficient in NodeJS, Python, Java and ReactJS with expertise in leading development teams and writing high-performance Rest APIs. Experienced in both relational and non-relational database, Dockerized applications, and Agile Scrum practices.
                     </p>
+                    <div className="row">
+                        <div className="col-6">
+                            <p className='font-120 text-white mb-0 fw-bold'>Experience</p>
+                            <p className='mb-0'>Freelance Coder, <span style={{fontSize:"80%"}}><i>June 2024 - Present</i></span></p>
+                            <p className=''>Outlier, Canada (Remote)</p>
+
+                            <p className='mb-0'>Software Developer Intern, <span style={{fontSize:"80%"}}><i>May 2024 - Aug 2024</i></span></p>
+                            <p className=''>Dash Hudson, Halifax, Canada</p>
+                            
+                            <p className='mb-0'>Associate Software Developer, <span style={{fontSize:"80%"}}><i>Aug 2019 - Mar 2023</i></span></p>
+                            <p className=''>Maersk GSC, Bangalore, India</p>
+                        </div>
+                        
+                        <div className="col-6">
+                            <p className='font-120 text-white mb-0 fw-bold'>Education</p>
+                            <p className='text-white mb-0'>Master's in Applied Computer Science, Dalhousie University - Sept 2024</p>
+                        </div>
+                    </div>
+                    
 
                     <p className='font-120 fw-bold mb-0'>Certifications</p>
-                    <p className='mb-0'>Certified AWS Cloud Practitioner [Jan 2024] – Amazon Corp</p>
-                    <p className='mb-0'>Angular Basic to Intermediate - PluralSight</p>
-                    <p className='mb-0'>Javascript Basic and Intermediate - Hacker Rank</p>
+                    <a href="https://www.credly.com/badges/09efccfe-8482-46f9-bcf5-e97abb45f63d">Certified AWS Cloud Practitioner [Jan 2024] – Amazon Corp</a><br></br>
+                    <a href="https://www.hackerrank.com/certificates/e1c883353809">Javascript Skill Certification (Basic) - Hackerrank</a>
+                    <p className='mb-0'>React Tutorial - NetNinja</p>
                 </div>
                 
             </div>
@@ -36,9 +52,9 @@ function About(){
                     <div className='card' style={{backgroundColor:"#e3e3e3"}}>
                         <div className='card-body'>
                             <p className='font-120 fw-bold'>Languages </p>
-                            <img src="https://www.vectorlogo.zone/logos/dotnet/dotnet-ar21.svg" className='pe-2'/>
-                            <img src="https://www.vectorlogo.zone/logos/python/python-ar21.svg" className='pe-3'/>
                             <img src="https://www.vectorlogo.zone/logos/javascript/javascript-ar21.svg" className='pe-2'/>
+                            <img src="https://www.vectorlogo.zone/logos/python/python-ar21.svg" className='pe-3'/>
+                            <img src="https://www.vectorlogo.zone/logos/java/java-ar21.svg" className='pe-3'/>
                             <img src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg" className='pe-3'/>
                             <img src="https://www.vectorlogo.zone/logos/w3_css/w3_css-ar21.svg" className='pe-3'/>
                         </div>
@@ -50,7 +66,7 @@ function About(){
                             <p className='font-120 fw-bold'>Frameworks</p>
 
                             <img src="https://www.vectorlogo.zone/logos/nodejs/nodejs-ar21.svg" className='pe-3'/>
-                            <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-ar21.svg" className='pe-3'/>
+                          
                             <img src="https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg" className='pe-3'/>
                             <img src="https://www.vectorlogo.zone/logos/vuejs/vuejs-ar21.svg" className='pe-3'/>
                             <img src="https://www.vectorlogo.zone/logos/angular/angular-ar21.svg" className='pe-3'/>

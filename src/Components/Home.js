@@ -3,7 +3,7 @@ import Typewriter from 'typewriter-effect';
 function Home(){
     const texts = [
         "I'm a full stack developer",
-        "Familiar with Javascript, Python, ASP .net Core and Java ",
+        "Familiar with Javascript, Python, and Java ",
         "AWS Certified Colud Practitioner",
         "I'm into  web development using modern web libraries and framework",
       ];
