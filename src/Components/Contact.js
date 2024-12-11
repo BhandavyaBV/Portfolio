@@ -5,8 +5,7 @@ import emailjs, { send } from 'emailjs-com'
 import { useState, useRef } from 'react'
 
 function Contact(){
-    const [subject,setSubject] = useState(null)
-    const [message,setMessage] = useState(null);
+  
     const messageRef = useRef(null);
     const subjectRef = useRef(null);
 
@@ -21,7 +20,7 @@ function Contact(){
         console.log(messageValue);
 
         if(subjectValue && messageValue){
-            emailjs.send('service_aqhydno',"template_78j0czt",{subject:subjectValue,message:messageValue},"72vTjcvzu_pdmTSl4").then(res=>{
+            emailjs.send('service_aqhydno',"template_78j0czt",{subject:subjectValue,message:messageValue},"tOGFG-xLZVdZ6LDBD").then(res=>{
                 if(res.status==200){
                     alert("Email sent successfully")
                 }
